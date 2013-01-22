@@ -1,7 +1,25 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mvc4webapi", "main\webapp\mvc4webapi\mvc4webapi.csproj", "{CABBC29C-EC43-4A03-A55D-C0B8498C8E03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mvc4webapi.Tests", "test\csharp\mvc4webapi.Tests\mvc4webapi.Tests.csproj", "{E48CDD58-05DF-49AF-9D38-D8A0D3CFA661}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CABBC29C-EC43-4A03-A55D-C0B8498C8E03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CABBC29C-EC43-4A03-A55D-C0B8498C8E03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CABBC29C-EC43-4A03-A55D-C0B8498C8E03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CABBC29C-EC43-4A03-A55D-C0B8498C8E03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E48CDD58-05DF-49AF-9D38-D8A0D3CFA661}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E48CDD58-05DF-49AF-9D38-D8A0D3CFA661}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E48CDD58-05DF-49AF-9D38-D8A0D3CFA661}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E48CDD58-05DF-49AF-9D38-D8A0D3CFA661}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
