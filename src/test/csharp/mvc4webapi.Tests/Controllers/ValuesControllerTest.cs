@@ -5,15 +5,15 @@ using System.Net.Http;
 using System.Text;
 using System.Web.Http;
 using Itera.Labs.ContinousDelivery.OctopusDemo.mvc4webapi.Controllers;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 using mvc4webapi;
 
 namespace mvc4webapi.Tests.Controllers
 {
-    [TestClass]
+    [TestFixture]
     public class ValuesControllerTest
     {
-        [TestMethod]
+        [Test]
         public void Get()
         {
             // Arrange
@@ -29,7 +29,7 @@ namespace mvc4webapi.Tests.Controllers
             Assert.AreEqual("value2", result.ElementAt(1));
         }
 
-        [TestMethod]
+        [Test]
         public void GetById()
         {
             // Arrange
@@ -42,7 +42,7 @@ namespace mvc4webapi.Tests.Controllers
             Assert.AreEqual("value", result);
         }
 
-        [TestMethod]
+        [Test]
         public void Post()
         {
             // Arrange
@@ -54,7 +54,7 @@ namespace mvc4webapi.Tests.Controllers
             // Assert
         }
 
-        [TestMethod]
+        [Test]
         public void Put()
         {
             // Arrange
@@ -66,7 +66,7 @@ namespace mvc4webapi.Tests.Controllers
             // Assert
         }
 
-        [TestMethod]
+        [Test]
         public void Delete()
         {
             // Arrange
