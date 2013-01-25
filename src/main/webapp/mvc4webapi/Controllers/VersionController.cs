@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
@@ -13,7 +14,7 @@ namespace Itera.Labs.ContinousDelivery.OctopusDemo.mvc4webapi.Controllers
     {
         public string Get()
         {
-            return Assembly.GetAssembly(typeof(WebApiApplication)).GetName().Version.ToString();
+            return WebApiApplication.Version;
         }
     }
 }
