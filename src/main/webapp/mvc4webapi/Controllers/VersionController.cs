@@ -13,7 +13,7 @@ namespace Itera.Labs.ContinousDelivery.OctopusDemo.mvc4webapi.Controllers
     {
         public string Get()
         {
-            return Assembly.GetExecutingAssembly().GetName().Version.ToString();
+            return Assembly.GetAssembly(typeof(WebApiApplication)).GetName().Version.ToString();
         }
     }
 }
