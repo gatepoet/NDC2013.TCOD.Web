@@ -1,6 +1,6 @@
 ﻿using System.Web.Optimization;
 
-namespace Itera.Labs.ContinousDelivery.OctopusDemo.mvc4webapi.App_Start
+namespace Itera.NDC2013.TCOD.Web.mvc4webapi.App_Start
 {
     public class BundleConfig
     {

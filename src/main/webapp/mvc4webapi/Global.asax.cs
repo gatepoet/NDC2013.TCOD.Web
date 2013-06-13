@@ -1,12 +1,13 @@
-﻿using System.Reflection;
+﻿using System.Configuration;
+using System.Reflection;
 using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
-using Itera.Labs.ContinousDelivery.OctopusDemo.mvc4webapi.App_Start;
 using System.Diagnostics;
+using Itera.NDC2013.TCOD.Web.mvc4webapi.App_Start;
 
-namespace Itera.Labs.ContinousDelivery.OctopusDemo.mvc4webapi
+namespace Itera.NDC2013.TCOD.Web.mvc4webapi
 {
     // Note: For instructions on enabling IIS6 or IIS7 classic mode, 
     // visit http://go.microsoft.com/?LinkId=9394801
@@ -21,6 +22,14 @@ namespace Itera.Labs.ContinousDelivery.OctopusDemo.mvc4webapi
                 var assembly = Assembly.GetAssembly(typeof (WebApiApplication));
                 var versionInfo = FileVersionInfo.GetVersionInfo(assembly.Location);
                 return versionInfo.ProductVersion;
+            }
+        }
+
+        public static string Environment
+        {
+            get
+            {
+                return ConfigurationManager.AppSettings["Environment"];
             }
         }
 

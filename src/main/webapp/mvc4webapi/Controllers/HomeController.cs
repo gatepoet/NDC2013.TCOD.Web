@@ -1,6 +1,6 @@
 ﻿using System.Web.Mvc;
 
-namespace Itera.Labs.ContinousDelivery.OctopusDemo.mvc4webapi.Controllers
+namespace Itera.NDC2013.TCOD.Web.mvc4webapi.Controllers
 {
     public class HomeController : Controller
     {

@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Net.Http;
-using System.Text;
-using System.Web.Http;
-using Itera.Labs.ContinousDelivery.OctopusDemo.mvc4webapi.Controllers;
+using Itera.NDC2013.TCOD.Web.mvc4webapi.Controllers;
 using NUnit.Framework;
-using mvc4webapi;
 
-namespace mvc4webapi.Tests.Controllers
+namespace Itera.NDC2013.TCOD.Web.mvc4webapi.Tests.Controllers
 {
     [TestFixture]
     public class ValuesControllerTest

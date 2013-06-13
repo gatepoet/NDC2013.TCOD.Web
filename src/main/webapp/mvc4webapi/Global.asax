@@ -1,1 +1,1 @@
-﻿<%@ Application Codebehind="Global.asax.cs" Inherits="Itera.Labs.ContinousDelivery.OctopusDemo.mvc4webapi.WebApiApplication" Language="C#" %>
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="Itera.NDC2013.TCOD.Web.mvc4webapi.WebApiApplication" Language="C#" %>
