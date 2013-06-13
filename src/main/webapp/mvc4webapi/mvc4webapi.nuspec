@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>Itera.NDC2013.TCOD.Web.mvc4webapi</id>
+    <id>Itera.NDC2013.TCOD.Web</id>
     <title>ASP.NET MVC 4 Web Api demo site</title>
     <version>1.0.0</version>
     <authors>Kristoffer Rolf Deinoff</authors>
