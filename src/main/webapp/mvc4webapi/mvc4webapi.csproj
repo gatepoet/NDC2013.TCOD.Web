@@ -189,6 +189,8 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="mvc4webapi.nuspec" />
+    <None Include="Web.Production.config" />
+    <None Include="Web.Test.config" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />
@@ -231,6 +233,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
+    <None Include="Web.Development.config" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
